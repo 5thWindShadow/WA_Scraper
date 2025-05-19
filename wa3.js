@@ -3,7 +3,7 @@ const qrcode = require('qrcode-terminal');
 const { MongoClient, ObjectId } = require('mongodb');
 
 // --- Konfigurasi MongoDB ---
-const MONGO_URI = "mongodb://localhost:27017"; // Ganti jika perlu
+const MONGO_URI = "mongodb://10.0.10.2:27017"; // Ganti jika perlu
 const DB_NAME = "whatsapp_chats";
 const MESSAGES_COLLECTION_NAME = "messages";
 const GROUP_INVITES_COLLECTION_NAME = "group_invites";
